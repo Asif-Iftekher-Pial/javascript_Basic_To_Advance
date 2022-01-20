@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make your own calculator</title>
+</head>
+<body>
+    <script>
+        var num1= prompt("enter first number = ");
+
+        var num2= prompt("enter second number = ");
+
+        var sum,sub;
+
+        var num1_converted=parseInt(num1); //converted into integer
+        var num2_converted=parseInt(num2); //converted into integer
+        document.write("first number was= "+ num1_converted );
+        document.write("<br/> second number was= "+num2_converted);
+        sum= num1_converted + num2_converted;
+        document.write("<br/> sum result is = " + sum + "<br/>");
+
+        if (num1_converted <= num2_converted) {
+            alert("first number needed to be higher for substruction!!")
+        }else{
+            sub = num1_converted - num2_converted;
+        document.write("substruction result is = " + sub);
+
+        }
+       
+
+    </script>
+</body>
+</html>
