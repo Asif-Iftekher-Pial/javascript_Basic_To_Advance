@@ -1,0 +1,16 @@
+Dom Event
+----------------
+1) Event object-
+        -event type: change, submit, load, unload, open, play,
+        canplay, pause, playing, progress, ended, resize, scroll, toggle ect.
+        -properties: type, target, preventDefault() 
+
+2) MouseEvent object
+3) KeyboardEvent object
+4) FocusEvent object
+5) Clipboard object
+6) DragEvent object
+
+Working sector of various addEventListener
+--------------------------------------------
+"Onchange" or "change" Event works on - ------> input,text,number,password,email,color,radio,checkbox,search,time,date,datetime,week,month,url
