@@ -1,0 +1,2 @@
+BOM -  interact between javascript and browser
+window helps us to interact between browser and User
